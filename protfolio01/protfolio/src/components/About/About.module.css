@@ -1,0 +1,93 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(43, 46, 113, 0.27);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 25px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Fade in to opacity 1 */
+  }
+}
+
+.aboutImage {
+  width: 40%;
+  animation-name: fadeIn; 
+  animation-duration: 3.5s; /* Change animation duration to 2 seconds */
+  animation-iteration-count: 1; /* Add animation iteration count */
+  animation-timing-function: ease-in-out; /* Add animation timing function */
+  margin-left: -150px;
+  margin-top: 50px;
+  
+}
+
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.aboutItem p {
+  font-size: 25px;
+}
+P {
+  color: aliceblue;
+  font-size: 32px;
+  padding-top: 80px;
+  margin-left: 50px;
+  margin-top: -70px;
+  
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+}

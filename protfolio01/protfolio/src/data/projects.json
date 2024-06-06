@@ -1,0 +1,20 @@
+[
+    {
+      "title": "ASL to voice & text convert application",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to convert Amarican Sign Language to text and voice.",
+      "skills": ["React Native", "Python"]
+    },
+    {
+      "title": "Shop Management System",
+      "imageSrc": "projects/shop.jpg",
+      "description": "This is a project made to manage a shop. Can access as a manager and also as a customer",
+      "skills": ["Java", "java swing"]
+    },
+    {
+      "title": "Protfolio",
+      "imageSrc": "projects/protfolio.jpeg",
+      "description": "This is a project made to Create the protfolio.",
+      "skills": ["React"]
+    }
+  ]
